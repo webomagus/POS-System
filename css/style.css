@@ -7,7 +7,7 @@
  .box-inner { width: 400px; padding: 10px;  border: 1px solid #a29415; }
 
 /* Top navigation */
-.navbar-default{ background-color: #1da1f2; margin-bottom: 0; font-family: Oswald-Light; font-size: 25px; border-bottom-color: #fff;}
+.navbar-default{ background-color: #1da1f2; margin-bottom: 0; font-family: Oswald-Light; font-size: 25px; border-bottom:none;}
 .navbar-default .navbar-nav>li>a{ color: #fff; }
 .nav-toggler{ width: 41px; height: 24px; background: url(../images/nav-toggler.png) no-repeat 0 0; border: none; margin: 10px 30px 0 0; }
 .navbar-default .navbar-nav>.active>a{ background-color: #fff;  }
