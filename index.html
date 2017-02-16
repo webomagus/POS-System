@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>POS System</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/build.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -93,15 +91,21 @@
                                 <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com. </div>
                                 <div class="product-price">$50.00</div>
                                 <div class="available-colors"><span>Colors:</span>
-                                    <div class="radio radio-danger">
-                                        <span class="radio-wrapper"><input type="radio" name="radio2" id="radio3" value="option1" checked="">
-                                        <label for="radio3"></label></span>
-                                        <span class="radio-wrapper"><input type="radio" name="radio2" id="radio3" value="option2">
-                                        <label for="radio3"></label></span>
-                                        <span class="radio-wrapper"><input type="radio" name="radio2" id="radio3" value="option3">
-                                        <label for="radio3"></label></span>
-                                        <span class="radio-wrapper"><input type="radio" name="radio2" id="radio3" value="option4">
-                                        <label for="radio3"></label></span>
+                                    <div class="radio-wrapper">
+                                    <div btn-group" data-toggle="buttons">
+                                        <label class="btn btn-green">
+                                            <input name="media_release" value="1" type="radio"> <i class="glyphicon glyphicon-ok"></i>
+                                        </label>
+                                        <label class="btn btn-info btn_red">
+                                            <input name="media_release" value="0" type="radio"><i class="glyphicon glyphicon-ok"></i>
+                                        </label>
+                                        <label class="btn btn-info btn_blue">
+                                            <input name="media_release" value="0" type="radio"><i class="glyphicon glyphicon-ok"></i>
+                                        </label>
+                                        <label class="btn btn-info btn_black">
+                                            <input name="media_release" value="0" type="radio"><i class="glyphicon glyphicon-ok"></i>
+                                        </label>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="quantity-size">

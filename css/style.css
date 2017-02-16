@@ -64,8 +64,8 @@ a.prod-link:hover{text-decoration: none; }
 .product-listing-block .product-description { color: #a2a2a3; font-size: 15px; font-family: Oswald-Light; margin-bottom: 50px; }
 .product-listing-block .product-price {color: #1da1f2; font-size: 36px; font-family: Oswald-Light; margin-bottom: 20px;}
 .product-listing-block .available-colors{color: #999; font-size: 16px; margin-bottom: 40px;}
-.radio-wrapper{ width: 50px; display: block; float: left; }
-.radio-danger{ display: block; clear: both;  position: absolute; margin-top: -21px; margin-left: 80px;}
+.radio-wrapper{ display: block; clear: both;  position: absolute; margin-top: -32px; margin-left: 80px;}
+.radio-wrapper .btn-info{ background-color: transparent; }
 .product-listing-block .quantity-size{ border-top: solid 1px #e3e3e3; border-bottom: solid 1px #e3e3e3; }
 .product-listing-block .quantity-size > .col-md-6:first-child{ border-right: solid 1px #e3e3e3; }
 .product-listing-block .quantity-size .col-md-6{ padding:10px 20px 10px 0; }
@@ -73,3 +73,19 @@ a.prod-link:hover{text-decoration: none; }
 .product-listing-block .quantity-size .form-control{ border: none; box-shadow: none; color: #999; font-size: 16px;}
 .product-listing-block .add-to-cart{ margin-top: 40px; }
 .product-listing-block .add-to-cart .btn{ color: #fff; padding: 10px 25px 10px 60px; border-color: #1da1f2; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; background: #1da1f2 url(../images/cart-icon.png) no-repeat 20px center;}
+
+.available-colors .btn{ width: 40px; height: 40px; border-radius: 100%; margin-right: 20px; border: none; }
+.available-colors .btn i{ top: 5px; }
+.available-colors .btn-green { background-color: rgba(144,202, 124, 0.4); color: #fff;}
+.available-colors .btn_red { background-color: rgba(218,12, 12, 0.4); color: #fff;}
+.available-colors .btn_blue { background-color: rgba(29,161, 242, 0.4); color: #fff;}
+.available-colors .btn_black { background-color: rgba(0,0, 0, 0.4); color: #fff;}
+
+.available-colors .btn-green.active { background-color: rgba(144,202, 124, 1); color: #fff;}
+.available-colors .btn_red.active { background-color: rgba(218,12, 12, 1); color: #fff;}
+.available-colors .btn_blue.active { background-color: rgba(29,161, 242, 1); color: #fff;}
+.available-colors .btn_black.active { background-color: rgba(0,0, 0, 1); color: #fff;}
+
+
+
+ 
