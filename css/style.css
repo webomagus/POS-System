@@ -73,6 +73,7 @@ a.prod-link:hover{text-decoration: none; }
 .product-listing-block .quantity-size .form-control{ border: none; box-shadow: none; color: #999; font-size: 16px;}
 .product-listing-block .add-to-cart{ margin-top: 40px; }
 .product-listing-block .add-to-cart .btn{ color: #fff; padding: 10px 25px 10px 60px; border-color: #1da1f2; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; background: #1da1f2 url(../images/cart-icon.png) no-repeat 20px center;}
+.product-listing-block .add-to-cart .btn:active{ background-color: #1784c7; }
 
 .available-colors .btn{ width: 40px; height: 40px; border-radius: 100%; margin-right: 20px; border: none; }
 .available-colors .btn i{ top: 5px; }
