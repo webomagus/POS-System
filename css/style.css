@@ -114,7 +114,10 @@ a.prod-link:hover{text-decoration: none; }
 .payment-method .value input{ width: 90%; padding: 10px 5px; background-color: #fff; border: none; }
 .payment-method .name { line-height: 40px; }
 
-
+.process-payment button{width: 100%; background-color: #0b6aa5; font-size: 24px; text-align: center; color: #fff; text-transform: uppercase; padding: 10px; border-radius: 5px;}
+.credit-card{ margin-top: 15px; margin-bottom: 30px; padding: 10px; }
+.credit-card .col-md-4, .credit-card .col-md-8{ padding-left: 0; padding-right: 0; }
+.credit-card .col-md-8{ border: solid 1px #dbdbdb; padding: 10px 0 10px 10px; }
 
 
 
