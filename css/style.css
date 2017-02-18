@@ -133,5 +133,17 @@ a.prod-link:hover{text-decoration: none; }
 #pin-modal .btn-container .btn-primary {font-size: 20px; background-color: #1da1f2; border: none; color: #fff; text-transform: uppercase; padding: 10px 30px; }
 
 
-
  
+/* Login page */
+html.login{ height: 100%; }
+body.login-page { background: url(../images/login-bg.jpg) no-repeat 0 0; background-size:cover; height: 100%; } 
+.login-outer-container{ position: absolute; display: table; height: 100%; width: 100%; }
+.login-middle-container{ display: table-cell; vertical-align: middle; }
+.login-inner-container {margin-left: auto; margin-right: auto; width: 360px;}
+.login-outer-container .title{ font-size: 36px; color: #fff; text-transform: uppercase; text-align: center; margin-bottom: 30px; background: url(../images/login-title-bg.png) no-repeat center center;}
+.login-outer-container .login-input input{ border-radius:3px; font-size: 24px; color: #000; padding: 10px 10px 10px 55px; width: 100%; margin-bottom: 15px; border: none;}
+.login-outer-container .login-input ::-webkit-input-placeholder{ color: #085e92; font-family: Oswald-Light;}
+.login-outer-container .login-input input[type="text"]{ background: #fff url(../images/user-icon.png) no-repeat 10px center; }
+.login-outer-container .login-input input[type="password"]{ background: #fff url(../images/password-icon.png) no-repeat 10px center; }
+.login-btn-container button{width: 100%; font-size: 25px; text-transform: uppercase; text-align: center; padding-bottom: 8px; padding-top: 8px; background-color: #085e92;   box-shadow: 3px 3px 0px #074e79;}
+
