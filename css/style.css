@@ -6,6 +6,8 @@
  
  .box-inner { width: 400px; padding: 10px;  border: 1px solid #a29415; }
 
+ .modal-backdrop { background-color: rgba(3,18,28,0.8) !important; opacity: 1 !important }
+
 /* Top navigation */
 .navbar-default{ background-color: #1da1f2; margin-bottom: 0; font-family: Oswald-Light; font-size: 25px; border-bottom:none;}
 .navbar-default .navbar-nav>li>a{ color: #fff; }
@@ -69,7 +71,8 @@ a.prod-link:hover{text-decoration: none; }
 .radio-wrapper .btn-info{ background-color: transparent; }
 .radio-wrapper input{ display: none; }
 .product-listing-block .quantity-size{ border-top: solid 1px #e3e3e3; border-bottom: solid 1px #e3e3e3; }
-.product-listing-block .quantity-size > .col-md-6:first-child, #checkout-modal .col-md-6{ border-right: solid 1px #e3e3e3; }
+.product-listing-block .quantity-size > .col-md-6:first-child{ border-right: solid 1px #e3e3e3; }
+ #checkout-modal .col-md-6.info-container{border-left: solid 1px #e3e3e3;}
 .product-listing-block .quantity-size .col-md-6{ padding:10px 20px 10px 0; }
 .product-listing-block .quantity-size .form-group{ margin-bottom: 0; }
 .product-listing-block .quantity-size .form-control{ border: none; box-shadow: none; color: #999; font-size: 16px;}
@@ -98,8 +101,8 @@ a.prod-link:hover{text-decoration: none; }
 #checkout-modal .cart-product-container .cart-product .name { font-size: 16px; color: #333;}
 #checkout-modal .cart-product-container .cart-product .color { font-size: 14px; color: #9d9999; }
 #checkout-modal .cart-product-container .cart-product .size { font-size: 14px; color: #9d9999; }
-#checkout-modal .cart-product-container .cart-product .close-btn a{ display: block; width: 25px; height: 25px; background-color: #ccc; color: #fff; font-size: 30px; border-radius: 100%; float: right; text-align: center; line-height: 21px;}
-#checkout-modal .cart-product-container .cart-product .close-btn a:hover{ text-decoration: none; background-color: #333; }
+#checkout-modal .cart-product-container .cart-product .close-btn-link a{ display: block; width: 25px; height: 25px; background-color: #ccc; color: #fff; font-size: 30px; border-radius: 100%; float: right; text-align: center; line-height: 21px;}
+#checkout-modal .cart-product-container .cart-product .close-btn-link a:hover{ text-decoration: none; background-color: #333; }
 #checkout-modal .cart-product-container .cart-product .price{ font-size: 18px; color: #333; text-align: right; display: block;clear: both; margin-top: 50px; }
 .subtotal-container-outer{ padding: 20px 0; }
 .subtotal-inner{ border:solid 1px #e9f5fd; background-color: #e9f5fd; border:  solid 1px #b6def6; margin-bottom: 15px; }
