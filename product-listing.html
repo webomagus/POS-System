@@ -19,8 +19,22 @@
 </head>
 
 <body>
-    <div class="box" style="display: none;">
-        <div class="slide-header align-right"><a href="#" class="close-btn">Close</a></div>
+<div class="left-menu-overlay" style="display: none;"></div>
+   </body> <div class="left-menu" style="display: none;">
+    <div class="close-btn-block"<a href="#-1"><a href="#" class="close-btn"></a></div>
+        <div class="user-profile">
+            <div class="col-md-4"><div class="user-img"><img src="images/sample-user-profile.jpg"></div></div>
+            <div class="col-md-8"><div class="user-name">Samantha  Gomes</div></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="left-menu-links">
+            <ul>
+                <li><a href="#-1">Update Profiles</a></li>
+                <li><a href="#-1">FAQ’s</a></li>
+                <li><a href="#-1">Contact Admin</a></li>
+            </ul>
+        </div>
+        <div class="logout-block"><button type="submit" class="btn btn-primary btn-block">Logout</button></div>
     </div>
     <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
         <div class="container">
@@ -1073,13 +1087,23 @@
     <script type="text/javascript ">
     $(document).ready(function() {
         $(".slide-left ").click(function() {
-            $(".box ").toggle("slow ", function() {
+            $(".left-menu ").toggle("slow ", function() {
+                // Animation complete.
+            });
+        });
+        $(".slide-left ").click(function() {
+            $(".left-menu-overlay").toggle("slow ", function() {
                 // Animation complete.
             });
         });
 
         $(".close-btn ").click(function() {
-            $(".box ").toggle("slow ", function() {
+            $(".left-menu ").toggle("slow ", function() {
+                // Animation complete.
+            });
+        });
+        $(".close-btn").click(function() {
+            $(".left-menu-overlay").toggle("slow ", function() {
                 // Animation complete.
             });
         });
