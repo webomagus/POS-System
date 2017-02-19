@@ -34,7 +34,7 @@
 .navbar-default .navbar-nav>li>a:hover{ color: #fff; }
 .nav-toggler{ width: 41px; height: 24px; background: url(../images/nav-toggler.png) no-repeat 0 0; border: none; margin: 10px 30px 0 0; }
 .navbar-default .navbar-nav>.active>a{ background-color: #fff;  }
-.navbar-fixed-top .col-md-3:before{ position: absolute; content: ''; border-right: solid 1px #2493d7; height: 50px; margin-left: -9px;}
+
 
 
 /* search box */
@@ -175,7 +175,7 @@ body.login-page { background: url(../images/login-bg.jpg) no-repeat 0 0; backgro
 
 
 /* top-cart */
-.top-cart-block{ width: 350px; position: absolute; height: 100%; background-color: #f7f4f4; border: solid 1px #d2d2d2; top: 0px; right: 33px; z-index: 15; padding-top: 80px; padding-left: 15px; padding-right: 15px; }
+.top-cart-block{ width: 400px; position: absolute; height: 100%; background-color: #f7f4f4; border: solid 1px #d2d2d2; top: 0px; right: 0px; z-index: 15; padding-top: 80px; padding-left: 15px; padding-right: 15px; }
 .top-cart-block .cart-product .prod-img, .top-cart-block .cart-product .col-md-7{padding: 0;}
 .top-cart-block .cart-product .col-md-6{ padding-left: 10px; }
 .top-cart-block .cart-product .col-md-4{ text-align: right; padding-left: 10px; padding-right:0; }
@@ -196,3 +196,40 @@ body.login-page { background: url(../images/login-bg.jpg) no-repeat 0 0; backgro
 .navbar-fixed-top .cart-info { cursor: pointer; }
 .top-cart-block .process-payment .name{font-family: Oswald-Light;}
 
+/* ADMIN */
+body.admin{ background-color: #f7f7f7; }
+.admin-block{ margin-top: 50px; }
+.admin-block .page-title { font-size: 36px; color: #1da1f2; padding: 20px; background-color: #fff; font-family: Oswald-Light;}
+.admin-block .white-block {background-color: #fff; padding: 20px; margin: 20px 0 0;}
+.store-info-internal {border-radius: 3px; padding: 15px; height: 130px;}
+.store-info-internal.cart-info{ background: #3598dc url(../images/cart-info.png) no-repeat bottom right; margin-top: 0;  }
+.store-info-internal.stock-info{ background: #e7505a url(../images/stock-info.png) no-repeat bottom right;  }
+.store-info-internal.customers-info{ background: #32c5d2 url(../images/user-info.png) no-repeat bottom right;  }
+.store-info-internal.refund-info{ background: #8e44ad url(../images/refund-info.png) no-repeat bottom right;  }
+.store-info-internal .amount{ font-size: 36px; color: #fff; min-height: 70px; }
+.store-info-internal .short-info{ font-size: 24px; color: #eeebeb; font-family: Oswald-Light; }
+.admin-block .white-block.clear-padding{padding: 0;}
+.lifetime-sales{ border: solid 1px #ebe6e6; }
+.lifetime-sales > .col-md-6:first-child{ border-right: solid 1px #ebe6e6; }
+.lifetime-sales .title{ padding: 10px 10px 10px 0px; color: #a2a3a2; font-size: 24px; font-family: Oswald-Light; }
+.lifetime-sales .sale-value { font-size: 28px; color: #333; padding-bottom: 10px; }
+
+.last-orders-list { padding: 15px !important; }
+.last-orders-list .title{ font-size: 24px; color: #e7505a; padding-bottom: 20px; border-bottom: solid 1px #f0f0f0; margin-bottom: 20px; }
+.last-orders-list .title:after{ position: absolute; content: ''; border-bottom: solid 1px #e7505a; width: 135px; margin-top: 54px; left: 30px;}
+.last-orders-list .table th{ font-size: 16px; color: #999; font-family: Oswald-Light; padding-top: 10px; padding-bottom: 10px;}
+.last-orders-list .table td{ font-size: 16px; color: #b0adad; font-family: Oswald-Light; padding-top: 10px; padding-bottom: 10px;}
+.last-orders-list .table td:nth-child(2), .last-orders-list .table th:nth-child(2){ text-align: right; }
+.last-orders-list .table td:nth-child(3), .last-orders-list .table th:nth-child(3){ text-align: right; }
+
+
+.revenue-block .col-md-3 {padding-left: 10px; padding-right: 10px;}
+.revenue-block .revenue-inner{ border-radius: 3px; }
+.revenue-block .revenue-inner.revenue-info{ background-color: #36c6d3;  }
+.revenue-block .revenue-inner.tax-info{ background-color: #659be0; }
+.revenue-block .revenue-inner.shipping-info{ background-color: #ed6b75; }
+.revenue-block .revenue-inner.quantity-info{ background-color: #f1c40f; }
+.revenue-block .revenue-inner .title{ font-size: 14px; color: #fff;  padding-left: 10px; padding-right: 10px; text-transform: uppercase; padding-top: 10px;}
+.revenue-block .revenue-inner .amount{font-size: 20px; color: #fff; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-transform: uppercase; padding-top: 10px; text-align: right;}
+.revenue-block  .section-title { font-size: 24px; color: #5d5f5e; margin-bottom: 15px; }
+.revenue-block  .section-title span{ font-size: 24px; color: #c5c7c6; font-family: Oswald-Light;}
