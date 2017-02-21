@@ -30,9 +30,12 @@
         </div>
         <div class="left-menu-links">
             <ul>
-                <li><a href="#-1">Update Profiles <i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                <li><a href="#-1">FAQ’s<i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                <li><a href="#-1">Contact Admin<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li class="active"><a href="#-1">Dashboard <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li><a href="#-1">PRoducts<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li><a href="#-1">Services<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li><a href="#-1">Users<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li><a href="#-1">Servestsellers<i class="glyphicon glyphicon-chevron-right"></i></a></li>
+                <li><a href="#-1">Stock<i class="glyphicon glyphicon-chevron-right"></i></a></li>
             </ul>
         </div>
         <div class="logout-block"><button type="submit" class="btn btn-primary btn-block">Logout</button></div>
@@ -53,7 +56,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Orders</a></li>
+                        <li><a href="product-listing.html">Orders</a></li>
                         <li class="active"><a href="#administration">Administration</a></li>
                     </ul>
                 </div>
@@ -103,7 +106,7 @@
                 </div>
                 <div class="white-block last-orders-list">
                     <div class="title">Lifetime Sales</div>
-                    <table class="table">
+                    <table class="table grid-info">
     <thead>
       <tr>
         <th>Customers</th>
@@ -134,7 +137,18 @@
             <div class="col-md-8">
             <!-- revenue section begins -->
             <div class="white-block revenue-block">
-                <div class="section-title pull-left">Revenue <span>Monthly Status..</span></div><div class="revenue-toggler pull-right">f</div>
+                <div class="section-title pull-left">Revenue <span>Monthly Status..</span></div><div class="revenue-toggler pull-right"><div class="btn-group revenue-display-criteria">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Action
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+   <ul>
+   	<li><a href="#-1">Last 24 Hours</a></li>
+   	<li><a href="#-1">Last 6 Months</a></li>
+   </ul>
+  </ul>
+</div></div>
                 <div class="clearfix"></div>
                 <div class="row">
                 <div class="col-md-3"><div class="revenue-inner revenue-info"><div class="title">revenue</div><div class="amount">$500.00</div></div></div>
@@ -144,6 +158,94 @@
                 </div>
             </div>
             <!-- revenue section ends -->
+            <!-- bestseller section begins -->
+            <div class="white-block bestseller-block">
+            <ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Bestseller</a></li>
+  <li><a data-toggle="tab" href="#menu1">Mostly Viewed Products</a></li>
+  <li><a data-toggle="tab" href="#menu2">New Customers</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <p><table class="table grid-info">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Denim Jeans</td>
+        <td>$50.00</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table></p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Mostly Viewed Products</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>New Customers</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
+            </div>
+            <!-- bestseller section ends -->
+            <!-- visitors graph section begins -->
+            <div class="white-block visitors-graph-block">
+            <div class="section-title pull-left">Vistitors <span>Monthly Status..</span></div>
+            <div class="revenue-toggler pull-right"><div class="btn-group revenue-display-criteria">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Action
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+   <ul>
+   	<li><a href="#-1">Last 24 Hours</a></li>
+   	<li><a href="#-1">Last 6 Months</a></li>
+   </ul>
+  </ul>
+</div></div>
+            <div class="clearfix"></div>
+            <div class="graph-container"> Graph component goes here...</div>
+            </div>
+            <!-- visitors graph section ends -->
+
             </div>
         </div>
     </div>
