@@ -250,3 +250,8 @@ body.admin{ background-color: #f7f7f7; }
 .visitors-graph-block .section-title { font-size: 24px; color: #5d5f5e; margin-bottom: 15px; }
 .visitors-graph-block .section-title span { font-size: 24px; color: #c5c7c6; font-family: Oswald-Light;}
 .visitors-graph-block .graph-container {font-family: Oswald-Light;}
+
+/* Simple Grid*/
+.table.grid-info.simple-grid th:nth-child(2), .table.grid-info.simple-grid th:nth-child(3), .table.grid-info.simple-grid td:nth-child(2), .table.grid-info.simple-grid td:nth-child(3){ text-align: left; }
+.table.grid-info.simple-grid>thead>tr>th { border-bottom: solid 5px #ebe6e6; }
+.table-striped>tbody>tr:nth-of-type(odd) { background-color: #fdfcfc; }
