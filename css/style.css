@@ -132,6 +132,7 @@ a.prod-link:hover{text-decoration: none; }
 #checkout-modal .cart-product-container .cart-product .close-btn-link a{ display: block; width: 25px; height: 25px; background-color: #ccc; color: #fff; font-size: 30px; border-radius: 100%; float: right; text-align: center; line-height: 21px;}
 #checkout-modal .cart-product-container .cart-product .close-btn-link a:hover{ text-decoration: none; background-color: #333; }
 #checkout-modal .cart-product-container .cart-product .price{ font-size: 18px; color: #333; text-align: right; display: block;clear: both; margin-top: 50px; }
+#checkout-modal.modal{ position: absolute; }
 .subtotal-container-outer{ padding: 20px 0; }
 .subtotal-inner{ border:solid 1px #e9f5fd; background-color: #e9f5fd; border:  solid 1px #b6def6; margin-bottom: 15px; }
 .subtotal-inner .info-row { border-bottom: solid 1px #b6def6; padding:10px; }
@@ -162,7 +163,7 @@ a.prod-link:hover{text-decoration: none; }
 #pin-modal .btn-container { margin-top: 30px; }
 #pin-modal .btn-container .btn-default{ font-size: 20px; background-color: #ececec; border: none; color: #b1b0b0; text-transform: uppercase; padding: 10px 30px; }
 #pin-modal .btn-container .btn-primary {font-size: 20px; background-color: #1da1f2; border: none; color: #fff; text-transform: uppercase; padding: 10px 30px; }
-
+#pin-modal.modal{ position: absolute; }
 
  
 /* Login page */
@@ -209,6 +210,7 @@ body.admin{ background-color: #f7f7f7; }
 .admin-block{ margin-top: 50px; margin-bottom: 50px; }
 .admin-block .page-title { font-size: 36px; color: #1da1f2; padding: 20px; background-color: #fff; font-family: Oswald-Light;}
 .admin-block .white-block {background-color: #fff; padding: 20px; margin: 20px 0 0;}
+.admin-block .white-block.user-info{ overflow: auto; }
 .store-info-internal {border-radius: 3px; padding: 15px; height: 130px;}
 .store-info-internal.cart-info{ background: #3598dc url(../images/cart-info.png) no-repeat bottom right; margin-top: 0;  }
 .store-info-internal.stock-info{ background: #e7505a url(../images/stock-info.png) no-repeat bottom right;  }
