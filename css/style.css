@@ -82,7 +82,7 @@ a.prod-link:hover{text-decoration: none; }
 
 /* Product Listing Modal */
 .modal-content{ border-radius: 0; background-color: #fff; top:20px;}
-.close-btn-container{ position: absolute; right: 0; padding:0 20px; background-color:#fff; top: -40px; }
+.close-btn-container{ right: 0; padding:0 20px; background-color:#fff;}
 .close-btn-container .close{ font-size: 45px; }
 
 .product-listing-block .modal-content .col-md-6{padding: 20px;}
@@ -264,6 +264,7 @@ body.admin{ background-color: #f7f7f7; }
 .table.grid-info.simple-grid>thead>tr>th { border-bottom: solid 5px #ebe6e6; }
 .table-striped>tbody>tr:nth-of-type(odd) { background-color: #fdfcfc; }
 
+.user-info .simple-grid a{ margin-right: 15px; }
 
 /* footer */
 footer{ background-color: #333; padding: 30px; margin-top: 50px; color: #fff; font-family: Oswald-Light;  position: absolute;width: 100%; bottom: 0;}

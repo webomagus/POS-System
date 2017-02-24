@@ -20,7 +20,6 @@
 
 <body class="admin">
 <!-- left menu begins -->
-<div class="left-menu-overlay" style="display: none;"></div>
    <div class="left-menu" style="display: none;">
     <div class="close-btn-block"><a href="#-1" class="close-btn"></a></div>
         <div class="user-profile">
@@ -64,23 +63,13 @@
             </div>
             <div class="col-md-4">
                 <div class="pull-right">
-                    <!-- Search box begins -->
-                    <form class="searchbox">
-                        <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
-                        <input type="submit" class="searchbox-submit" value="GO">
-                        <span class="searchbox-icon"><i class="glyphicon glyphicon-search"></i></span>
-                    </form>
-                    <!-- Search box ends -->
+                    
+
                 </div>
             </div>
             <div class="col-md-3">
 
-                <!-- top cart toggle begins -->
-                <div class="clearfix">
-                    <div class="cart-toggle pull-left"><a href="#-1" class="prod-link"><i class="glyphicon glyphicon-th-list"></i></a></div>
-                    <div class="cart-info pull-right"><i class="glyphicon glyphicon-shopping-cart"></i> (3) items</div>
-                </div>
-                <!-- top cart toggle ends -->
+
             </div>
         </div>
     </nav>
@@ -253,50 +242,7 @@
 
 
 
-            <!-- top right cart block begins -->
-<div class="top-cart-block" style="display: none;">
-    <div class="cart-title">Your Cart <a href="#-1" class="close-cart pull-right">X</a></div>
-    <div class="cart-product-list">
-        <div class="cart-product">
-            <div class="col-md-2 prod-img"><img src="images/main-product-img.jpg"></div>
-            <div class="col-md-6"><div class="name">Blue Shit</div><div class="color">Color : Blue</div><div class="size">Size: XL</div></div>
-            <div class="col-md-4"><div class="close-btn-link"><a href="#-1"></a></div>
-                <div class="price">$50.00</div>
-            </div>
-            <div class="clearfix"></div>
-            </div>
-            <div class="cart-product">
-            <div class="col-md-2 prod-img"><img src="images/main-product-img.jpg"></div>
-            <div class="col-md-6"><div class="name">Blue Shit</div><div class="color">Color : Blue</div><div class="size">Size: XL</div></div>
-            <div class="col-md-4"><div class="close-btn-link"><a href="#-1"></a></div>
-                <div class="price">$50.00</div>
-            </div>
-            <div class="clearfix"></div>
-            </div>
 
-        </div>
-<div class="cart-subtotal">
-    <div class="value subtotal">
-        <div class="name pull-left">Subtotal</div>
-        <div class="amount pull-right">250.00</div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="value subtotal">
-        <div class="name pull-left">Discount</div>
-        <div class="amount pull-right">10.00</div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="value subtotal">
-        <div class="name pull-left">Tax</div>
-        <div class="amount pull-right">250.00</div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<div class="process-payment">
-    <a href="#-1" class="btn btn-primary btn-block"><span class="name pull-left">Pay</span><span class="total-amount pull-right">$300.00</span><div class="clearfix"></div></a>
-</div>
-</div>
-<!-- top right cart block ends -->
 <!-- Footer container begins -->
 <footer>
     <div class="container">
@@ -333,11 +279,8 @@
                 // Animation complete.
             });
         });
-        $(".slide-left ").click(function() {
-            $(".left-menu-overlay").toggle("slow ", function() {
-                // Animation complete.
-            });
-        });
+       
+
         $(".cart-toggle a").click(function() {
             $(".top-cart-block").toggle("slow ", function() {
                 // Animation complete.
@@ -361,11 +304,7 @@
         });
 
         
-        $(".close-btn").click(function() {
-            $(".left-menu-overlay").toggle("slow ", function() {
-                // Animation complete.
-            });
-        });
+        
 
 
     });

@@ -376,6 +376,7 @@
                                 </div>
                                 <div class="add-to-cart"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-dismiss="modal" data-target="#checkout-modal"><i class="fa fa-check-square-o" aria-hidden="true"></i> Checkout</button>
                                 <button type="button" class="btn btn-info btn-lg pull-right add-to-cart-btn" data-toggle="modal" data-dismiss="modal" data-target="#checkout-modal"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+                                <button type="button" class="btn btn-info btn-lg pull-right add-to-cart-btn" data-toggle="modal" data-dismiss="modal" data-target="#pin-modal"><i class="fa fa-cart-plus" aria-hidden="true"></i> Pin Modal</button>
                                 <div class="clearfix"></div>
                                 </div>
                             </div>
@@ -1088,10 +1089,10 @@
                             </div>
                             <div class="title">User PIN</div>
                             <div class="pin-input text-center">
-                            	<input type="password" name="pin1">
-                            	<input type="password" name="pin2">
-                            	<input type="password" name="pin3">
-                            	<input type="password" name="pin4">
+                            	<input type="password" name="pin1" id="pin-1" maxlength="1" size="1">
+                            	<input type="password" name="pin2" id="pin-2" maxlength="1" size="1">
+                            	<input type="password" name="pin3" id="pin-3" maxlength="1" size="1">
+                            	<input type="password" name="pin4" id="pin-4" maxlength="1" size="1">
                             	<div class="btn-container">
                             		<div class="col-md-6 text-right"><button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button></div>
                             		<div class="col-md-6 text-left"><button type="button" class="btn btn-primary">ok</button></div>
@@ -1258,6 +1259,11 @@
             $('.searchbox-icon').css('display', 'block');
         }
     }
+    </script>
+    <script type="text/javascript">
+        $('#pin-modal').on('shown.bs.modal', function () {
+    $('#pin-1').focus();
+}) 
     </script>
 </body>
 
